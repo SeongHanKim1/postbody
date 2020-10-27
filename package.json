@@ -1,0 +1,29 @@
+{
+  "name": "postBodyStressTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src/ src/index.js"
+  },
+  "dependencies": {
+    "co-body": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "nodemon": "^2.0.6",
+    "pg": "^8.4.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.22.3",
+    "sequelize-cli": "^6.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "koa-bodyparser": "^4.3.0"
+  }
+}
